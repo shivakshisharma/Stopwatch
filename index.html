@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>StopWatch</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-
-     <h1>StopWatch</h1>
-
-
-        <script src="index.js"></script>
-    </body>
+<head>
+    <title>StopWatch</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="container2">
+                <div class="heading">
+                    <h4><b>StopWatch</b></h4>
+                </div>
+                <div class="Quote">
+                    <p>Time and Tide waits for none</p>
+                </div>
+            </div>
+         
+            <div id="stopwatch" class="stopwatch">00:00:00</div>
+            <div class="buttons">
+                <button onclick="startStopwatch()"><i class="fas fa-play"></i></button>
+                <button onclick="pauseStopwatch()"><i class="fas fa-pause"></i></button>
+                <button onclick="resetStopwatch()"><i class="fas fa-stop"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
 </html>

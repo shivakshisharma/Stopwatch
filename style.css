@@ -1,0 +1,65 @@
+body {
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -10px; /* Add some space between heading/quote and stopwatch/buttons */
+}
+
+.card {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.Quote{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom:50px;
+    margin-top: -50px;
+
+}
+.heading{
+    font-size:70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.stopwatch{
+    font-size: 60px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    border: none;
+    border-radius: 50px; /* Adjust the border radius as needed */
+    padding: 10px 20px;
+    margin: 0 10px; /* Adjust the margin between buttons as needed */
+    background-color: whitesmoke; /* Adjust button background color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow to buttons */
+}
+
+.buttons button:hover {
+    background-color: papayawhip; /* Adjust hover background color as needed */
+    cursor: pointer;
+}
